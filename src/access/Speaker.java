@@ -2,7 +2,8 @@ package access;
 
 public class Speaker {
 
-    int volume;
+    //필드에 직접 접근 방지, Speaker 안에서만 접근 가능
+    private int volume;
 
     Speaker(int volume) {
         this.volume = volume;
