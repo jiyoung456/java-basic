@@ -27,4 +27,8 @@ public class Speaker {
         System.out.println("volume = " + volume);
     }
 
+    void volumeStatus() {
+        System.out.println("volume = " + volume);
+    }
+
 }
